@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <body>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="module.css">
+            <title>Chọn loại thực phẩm</title>
+        </head>
+        <nav class="navbar">
+            <div class="logo">
+                Cooking Mama
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul id="menu">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Công thức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <script>
+            function toggleMenu() {
+                document.getElementById("menu").classList.toggle("show");
+            }
+        </script>
+        <div>
+            <h2> Bạn thích ăn gì?</h2>
+        </div>  
+        <div class="food-type-selection">
+            <button class="food-main-button">
+                Món ăn chính
+            </button>
+            <button class="food-dessert-button">
+                Món tráng miệng
+            </button>
+            <button class="food-drink-button">
+                Nước uống
+            </button>
+        </div>
+        
+    </body>
+    <body>
+        <footer>
+            <h3 style="color: black; text-align: center;">Nhật Anh - Quốc Huy</h3>
+        </footer>
+    </body>
+</html>

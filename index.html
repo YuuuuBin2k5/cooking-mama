@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <link rel="stylesheet" href="module.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cooking Mama</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            My Cooking Mama
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Công thức</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <script>
+        function toggleMenu() {
+        document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+
+    
+</body>
+<body>
+  <main>
+    <section>
+      <h1>Cooking Mama</h1>
+      <p>Khám phá các món ăn ngon và hấp dẫn!</p>
+    </section>
+
+    <div class="foodListContainer">
+      <div class="foodCard">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Bánh mì" class="foodImage"/>
+        <h3 class="foodName">Bánh mì</h3>
+        <p class="foodDesc">Bánh mì Việt Nam giòn tan, thơm ngon.</p>
+      </div>
+
+      <div class="foodCard">
+        <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Phở" class="foodImage"/>
+        <h3 class="foodName">Phở</h3>
+        <p class="foodDesc">Phở bò truyền thống với nước dùng đậm đà.</p>
+      </div>
+
+      <div class="foodCard">
+        <img src="https://images.unsplash.com/photo-1464306076886-debede6bbf09?auto=format&fit=crop&w=400&q=80" alt="Gỏi cuốn" class="foodImage"/>
+        <h3 class="foodName">Gỏi cuốn</h3>
+        <p class="foodDesc">Gỏi cuốn tươi mát, ăn kèm nước chấm đặc biệt.</p>
+      </div>
+
+      <div class="foodCard">
+        <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Bún chả" class="foodImage"/>
+        <h3 class="foodName">Bún chả</h3>
+        <p class="foodDesc">Bún chả Hà Nội thơm ngon, hấp dẫn.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
